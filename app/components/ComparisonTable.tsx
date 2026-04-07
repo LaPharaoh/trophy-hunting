@@ -131,7 +131,6 @@ const rows: Row[] = [
   },
 ]
 
-type CellValue = boolean | 'partial'
 
 function Cell({ value, note }: { value: CellValue; note?: string | null }) {
   if (value === true) {
